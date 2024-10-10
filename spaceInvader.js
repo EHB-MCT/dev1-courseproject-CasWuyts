@@ -3,7 +3,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 let context = canvas.getContext("2d");
 
-signature()
+signature();
 
 function signature(){
     context.fillRect(50,50,300,300);
